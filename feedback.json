@@ -1,0 +1,11 @@
+{
+  "maxID": 3,
+  "comments": [
+    {"id": "1",
+      "author": "Anna",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda atque doloremque excepturi inventore iusto minus neque officia, officiis placeat quaerat quam quis, sequi, tempora tenetur vero voluptas voluptates.",
+      "approved": true},
+    {"id": "2", "author": "Tom", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda atque doloremque excepturi inventore iusto minus neque officia.", "approved": true},
+    {"id": "3", "author": "John", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda atque doloremque excepturi inventore iusto minus neque officia, officiis placeat quaerat quam quis, sequi, tempora tenetur vero voluptas voluptates.", "approved": false}
+  ]
+}

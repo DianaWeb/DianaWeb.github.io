@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.container-body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-top {
+    flex: 1;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.block-top {
+    min-height: 750px;
+}
+
+.slider-back-home {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/top.jpg) center top no-repeat;
+    background-size: cover;
+}
+.slider-back-tel {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/tel.jpg) center top no-repeat;
+    background-size: cover;
+}
+.slider-back-laptop {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/laptop) center top no-repeat;
+    background-size: cover;
+}
+.slider-back-tablet {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/tablet.jpg) center top no-repeat;
+    background-size: cover;
+}
+.slider-back-tv {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/tv.jpg) center top no-repeat;
+    background-size: cover;
+}.slider-back-auto {
+     min-height: 750px;
+     background: url(https://abbygo.pro/img/auto.jpg) center top no-repeat;
+     background-size: cover;
+ }
+.slider-back-contact {
+    min-height: 750px;
+    background: url(https://abbygo.pro/img/img-cont.jpg) center top no-repeat;
+    background-size: cover;
+}
+
+.dark-rectangle {
+    background-color: rgba(0, 10, 15, 0.85);
+    min-height: 750px;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+}
+
+.menu > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    position: relative;
+    list-style: none;
+}
+
+.menu > ul > li > a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    transition: color .3s;
+}
+
+.menu > ul > li > a.active-link {
+    color: #0199e6;
+}
+
+.menu > ul > li > a:hover {
+    color: #0199e6;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: -13px;
+    width: 250px;
+    border-radius: 5px;
+    background: #727272;
+    padding: 5px;
+}
+
+.menu > ul > li:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    position: absolute;
+    background: #727272;
+    transform: rotate(45deg);
+    top: -7px;
+    left: 58px;
+}
+
+.dropdown-menu ul {
+    width: 100%;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 52px;
+    border-bottom: 1px solid #c1c1c1;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: color .3s;
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+    background: #555555;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all .3s;
+}
+
+.icon:hover {
+    color: #fff;
+    background: #0199e6;
+}
+
+.header-number {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.header-number:before {
+    content: "\260e";
+    margin-right: 10px;
+}
+
+.block-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slogan span:nth-child(1) {
+    font-weight: 700;
+}
+
+.slogan span:nth-child(2) {
+    color: #0199e6;
+}
+
+.brief-information {
+    max-width: 679px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 71px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-top-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 101px;
+    background-color: rgba(0, 0, 0, 0.51);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 90px;
+}
+
+.form-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-top input {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 214px;
+    height: 54px;
+    box-shadow: -3px 0 0 #0199e6;
+    border: 1px solid rgba(1, 153, 230, 0.3);
+    border-radius: 4px;
+    background-color: #000000;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    letter-spacing: 1.2px;
+}
+
+.form-top input:hover {
+    background-color: #1b1b1b;
+}
+
+.form-top input:focus {
+    background-color: #363636;
+}
+
+.form-top-button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    height: 55px;
+    background-color: #008ed6;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-left: 35px;
+    padding-right: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.form-top-button:hover {
+    color: #008ed6;
+    background: #fff;
+    border: 1px solid #008ed6;
+}
+
+.register-now {
+    position: absolute;
+    bottom: -45px;
+    right: 160px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.register-now:after {
+    position: absolute;
+    top: -14px;
+    right: -45px;
+    content: "";
+    background: rgba(255, 255, 255, 0) url(https://abbygo.pro/img/arrow.png) 0 0 no-repeat;
+    width: 34px;
+    height: 26px;
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.service-title {
+    color: #323232;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.line-blue {
+    border-top: 2px solid #008ed6;
+    width: 70px;
+}
+
+.service-description {
+    font-size: 17px;
+    color: #727272;
+    margin-top: 21px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.all-services {
+    padding-bottom: 57px;
+}
+
+.service-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 17px;
+}
+
+.service-flex a:first-child {
+    margin-left: 0;
+}
+
+.service-flex a:last-of-type {
+    margin-right: 0;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.service-item:hover {
+    background-color: #f7f8fa;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+.icon-service {
+    color: #0199e6;
+    font-size: 50px;
+    line-height: 120px;
+}
+
+.service {
+    color: #323232;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.service-information {
+    display: flex;
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    line-height: 24.96px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+
+}
+
+.footer-contact-wrap {
+    background-color: #f7f8fa;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.haveAnyQuestion {
+    color: #323232;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.contactAs {
+    color: #008ed6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.75px;
+    text-transform: uppercase;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.form-bottom {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-bottom-name,
+.form-bottom-tel,
+.form-text {
+    width: 100%;
+}
+
+.form-bottom input:not([type=checkbox]), textarea {
+    width: 100%;
+    color: #323232;;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    height: 54px;
+    border: 1px solid rgba(1, 153, 230, 0.3);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-bottom input:hover, textarea:hover {
+    box-shadow: 0 0 10px 0 rgba(1, 153, 230, 0.3);
+}
+
+.form-bottom input:focus, textarea:focus {
+    box-shadow: 0 0 10px 0 rgba(1, 153, 230, 0.3);
+}
+
+.form-bottom textarea {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+.privacy-policy-form {
+    color: #919191;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 54px;
+}
+input[type=checkbox] {
+    margin-right: 10px;
+}
+.form-bottom-button {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    height: 55px;
+    background-color: #008ed6;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.form-bottom-button:hover {
+    color: #008ed6;
+    background-color: #fff;
+    border: 1px solid #008ed6;
+}
+
+.contacts {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-information {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.contact-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact-list-heading {
+    color: #323232;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.contact-list-text {
+    color: #727272;
+    font-size: 17px;
+    line-height: 24.96px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-bottom {
+    min-height: 284px;
+    background-color: #f7f8fa;
+    padding-top: 77px;
+    box-sizing: border-box;
+}
+
+.footer-flex {
+}
+
+.logo-bottom-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-bottom {
+    padding: 5px;
+    text-decoration: none;
+    color: #323232;
+    font-size: 35px;
+    line-height: 29.97px;
+}
+
+.copyright-text {
+    display: flex;
+    justify-content: center;
+    color: #919191;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 54px;
+}
+.wrapper-privacy-policy {
+    display: flex;
+    justify-content: center;    
+}
+.privacy-policy {
+    color: #919191;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px 20px;
+}
+.privacy-policy:hover { 
+    color: #008ed6;
+}
+.icons-bottom-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-bottom {
+    display: block;
+    text-decoration: none;
+    width: 24px;
+    height: 25px;
+    color: #f7f8fa;
+    background: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 3px;
+    text-align: center;
+    transition: background-color .3s;
+}
+
+.icon-bottom:hover {
+    background: #0199e6;
+}
+
+/*Ремонт телефонов*/
+.main-box {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    color: #323232;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.info-text {
+    max-width: 550px;
+    color: #727272;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.97px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.gadget-title {
+    color: #323232;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.table-wrap {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.row-table {
+    display: flex;
+    width: 80%;
+}
+
+.row-table:nth-of-type(odd) {
+    background-color: #f7f8fa;
+}
+
+.column-table-1 {
+    flex: 5;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    color: #323232;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.column-table-2 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    color: #323232;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .register-now:after {
+        position: unset;
+        top: -14px;
+        right: -45px;
+        content: "";
+        background: rgba(255, 255, 255, 0) url(https://abbygo.pro/img/arrow.png) 0 0 no-repeat;
+        width: 34px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-item {
+        width: 320px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .register-now {
+        text-align: center;
+        bottom: -70px;
+        right: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+
+    .row-table {
+        display: flex;
+        width: 100%;
+    }
+
+    .column-table-1 {
+        flex: 5;
+    }
+
+    .column-table-2 {
+        flex: 2;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 420px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .form-top input {
+        max-width: 200px;
+    }
+
+    .form-top-button {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header-flex {
+        justify-content: center;
+    }
+    .header-number {
+        justify-content: center;
+    }
+    .form-top {
+        justify-content: center;
+    }
+    .form-top-button {
+        margin-left: -5px;
+    }
+
+    .form-bottom,
+    .contacts {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu > ul > li > a {
+        padding: 14px;
+    }
+
+    .dropdown-menu {
+        left: -60px;
+    }
+
+    .dropdown-menu:before {
+        left: 100px;
+    }
+
+    .slogan {
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

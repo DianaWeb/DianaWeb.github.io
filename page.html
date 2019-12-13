@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Page</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+</head>
+<body>
+<div class="container_body">
+  <div class="content_top">
+    <header class="header">
+      <div class="container header_flex">
+        <div class="header_left">
+          <a class="logo" href="index.html"><img src="img/logo.png" alt="logo">
+            <p class="text_brand">
+              BRAN<span>D</span>
+            </p>
+          </a>
+          <form class="header_form" action="#">
+            <div class="browse">
+              <details class="details_browse">
+                <summary class="summary_browse">Browse</summary>
+                <div class="mega_box_browse">
+                  <div class="box_details_browse">
+                    <h3 class="name_box_browse">Women</h3>
+                    <ul>
+                      <li><a href="page.html">New Arrivals</a></li>
+                      <li><a href="product.html">Tops</a></li>
+                      <li><a href="product.html">Sweaters/Knits</a></li>
+                      <li><a href="product.html">Jackets/Coats</a></li>
+                      <li><a href="product.html">Blazers</a></li>
+                      <li><a href="product.html">Denim</a></li>
+                      <li><a href="product.html">Leggings/Pants</a></li>
+                      <li><a href="product.html">Skirts/Shorts</a></li>
+                      <li><a href="product.html">Accessories </a></li>
+                    </ul>
+                  </div>
+                  <div class="box_details_browse">
+                    <h3 class="name_box_browse">Men</h3>
+                    <ul>
+                      <li><a href="product.html">Tees/Tank tops</a></li>
+                      <li><a href="product.html">Shirts/Polos</a></li>
+                      <li><a href="product.html">Sweaters</a></li>
+                      <li><a href="product.html">Sweatshirts/Hoodies</a></li>
+                      <li><a href="product.html">Blazers</a></li>
+                      <li><a href="product.html">Jackets/vests</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <input class="search" type="search" placeholder="Search for Item...">
+            <button class="button_form" type="submit">
+              <img src="img/search.png" alt="search">
+            </button>
+          </form>
+        </div>
+        <div class="header_right">
+          <div class="cart_wrapper">
+            <a href="#">
+              <img class="cart_img" src="img/cart.svg" alt="cart">
+            </a>
+            <div id="cart_box">
+              <!--Контейнер для Продукции в Корзине -->
+            </div>
+          </div>
+          <a class="button_pink" href="#">My Account</a>
+        </div>
+      </div>
+    </header>
+    <nav class="container">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Man</a>
+          <div class="mega_box_women">
+            <div class="mega_flex">
+              <h3 class="mega_heading">Man</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+            <div class="mega_flex">
+              <h3 class="mega_heading">Man</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="no_link">Women
+          <div class="mega_box_women">
+            <div class="mega_flex">
+              <h3 class="mega_heading">Women</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+            <div class="mega_flex">
+              <h3 class="mega_heading">Women</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+            <div class="mega_flex">
+              <h3 class="mega_heading">Women</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Kids</a>
+          <div class="mega_box_kids">
+            <div class="mega_flex">
+              <h3 class="mega_heading">Kids</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+            <div class="mega_flex">
+              <h3 class="mega_heading">Kids</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+            <div class="mega_flex">
+              <h3 class="mega_heading">Kids</h3>
+              <ul>
+                <li><a class="mega_link" href="product.html">Dresses</a></li>
+                <li><a class="mega_link" href="product.html">Tops</a></li>
+                <li><a class="mega_link" href="product.html">Sweaters/Knits</a></li>
+                <li><a class="mega_link" href="product.html">Jackets/Coats</a></li>
+                <li><a class="mega_link" href="product.html">Blazers</a></li>
+                <li><a class="mega_link" href="product.html">Denim</a></li>
+                <li><a class="mega_link" href="product.html">Leggings/Pants</a></li>
+                <li><a class="mega_link" href="product.html">Skirts/Shorts</a></li>
+                <li><a class="mega_link" href="product.html">Accessories </a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Accoseriese</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Hot Deals</a></li>
+      </ul>
+    </nav>
+
+    <div class="new_arrivals">
+      <div class="container new_arrivals_flex">
+        <h2 class="text_new_arrivals">New Arrivals</h2>
+        <ul class="new_arrivals_nav">
+          <li><a href="index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="#">Women</a></li>
+          <li>/</li>
+          <li>
+            <p class="new_arrivals_nav_text">New Arrivals</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="slider_page">
+     <!-- <div class="owl-carousel owl-theme"> -->
+        <img class="slider_photo" src="img/woman_1.jpg" alt="woman">
+        <!--<img class="slider_photo" src="img/woman_1.jpg" alt="woman">
+        <img class="slider_photo" src="img/woman_1.jpg" alt="woman">
+        <img class="slider_photo" src="img/woman_1.jpg" alt="woman">
+        <img class="slider_photo" src="img/woman_1.jpg" alt="woman"> -->
+      <!--</div> -->
+
+      <div class="slider_arrows">
+        <div class="arrow">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <div class="arrow">
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+    <!--    начало - WOMEN COLLECTION -->
+    <div class="information_collection container">
+      <div class="information">
+        <h3 class="woman_collection_pink tac">
+          WOMEN COLLECTION
+        </h3>
+        <div class="line_gray"></div>
+        <div class="line_pink"></div>
+        <h2 class="moschino_cheap tac">Moschino Cheap And Chic</h2>
+        <p class="text_information tac">
+          Compellingly actualize fully researched processes before proactive outsourcing. Progressively
+          syndicate collaborative architectures before cutting-edge services. Completely visualize parallel
+          core competencies rather than exceptional portals.
+        </p>
+        <div class="material_designer">
+          <div class="material">
+            <p>MATERIAL:
+              <span class="name_material">COTTON</span>
+            </p>
+          </div>
+          <div class="designer">
+            <p>DESIGNER:
+              <span class="name_designer">BINBURHAN</span>
+            </p>
+          </div>
+        </div>
+        <p class="price_page tac">$561</p>
+        <div class="line_gray2"></div>
+        <form action="#">
+          <div class="flex_color_size_quantity">
+            <div>
+              <label for="colorBox" class="color_size_quantity">CHOOSE COLOR</label>
+              <select id="colorBox" class="color_box">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+              </select>
+            </div>
+            <div>
+              <label for="sizeBox" class="color_size_quantity">CHOOSE SIZE</label>
+              <select id="sizeBox" class="size_box">
+                <option value="">XXL</option>
+                <option value="1">XS</option>
+                <option value="2">S</option>
+                <option value="3">M</option>
+                <option value="4">L</option>
+                <option value="5">XL</option>
+              </select>
+            </div>
+            <div>
+              <label for="quantityNumber" class="color_size_quantity">
+                QUANTITY
+                <input type="number" id="quantityNumber" class="quantity_number">
+              </label>
+            </div>
+          </div>
+          <div class="flex_add_to_cart">
+            <a class="link_add_to_cart" href="#">
+              <img class="cart_pink" src="img/cart_pink.svg" alt="cart">
+              Add to Cart
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--    конец - WOMEN COLLECTION -->
+    <!--Отзывы начало-->
+    <div class="container">
+      <p class="feedback-header">
+        reviews about this product:
+      </p>
+      <div id="feedback"></div>
+      <p class="feedback-header">
+        Leave your feedback:
+      </p>
+      <form action="" id="myform">
+        <label class="label-feedback">Your name
+          <input class="input-feedback" type="text" id="author">
+        </label>
+        <label class="label-feedback">Your comment
+          <textarea class="textarea-feedback" id="text" rows="10"></textarea>
+        </label>
+        <button class="publish-feedback" type="submit">Publish</button>
+      </form>
+    </div>
+    <!--отзывы конец-->
+    <!-- начало - you may like also -->
+    <section class="container">
+      <h3 class="like_also tac">you may like also</h3>
+
+      <div id="box_product">
+        <!--Товары-->
+      </div>
+    </section>
+    <!-- конец - you may like also -->
+    <!--    начало subscribe_information -->
+    <div class="block_subscribe">
+      <div class="subscribe_back">
+        <div class="subscribe_flex container">
+          <div class="subscribe_flex_left">
+            <img src="img/woman_round.png" alt="woman" width="83" height="83">
+            <div class="comment_1">
+              <p class="comment_text_1">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a.
+                Aliquam condimentum mattis neque sed pretium”
+              </p>
+              <p class="comment_text_2">Bin Burhan</p>
+              <p class="comment_text_3">Dhaka, Bd</p>
+              <div class="three_lines">
+                <div class="three_lines_item"></div>
+                <div class="three_lines_item"></div>
+                <div class="three_lines_item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe_flex_right">
+            <h2 class="subscribe_text_1 tac">Subscribe</h2>
+            <h4 class="subscribe_text_2 tac">
+              FOR OUR NEWLETTER AND PROMOTION
+            </h4>
+            <form action="#">
+              <div class="form_newsletter">
+                <input type="text" placeholder="Enter Your Email" class="email_1">
+                <input type="submit" value="Subscribe" class="email_2">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="block_information container">
+      <div class="block_information_1">
+        <a class="logo" href="#"><img src="img/logo.png" alt="logo">
+          <p class="text_brand">
+            BRAN<span>D</span>
+          </p>
+        </a>
+        <p class="information_content">Objectively transition extensive data rather than cross functional
+          solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+          Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+        <p class="information_content">Efficiently plagiarize 24/365 action items and focused infomediaries.
+          Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+
+      </div>
+      <div class="block_information_2">
+        <h3 class="information_heading">COMPANY</h3>
+        <a href="index.html" class="information_link">Home</a>
+        <a href="product.html" class="information_link">Shop</a>
+        <a href="product.html" class="information_link">About</a>
+        <a href="product.html" class="information_link">How It Works</a>
+        <a href="checkout.html" class="information_link">Contact</a>
+      </div>
+      <div class="block_information_2">
+        <h3 class="information_heading">INFORMATION</h3>
+        <a href="product.html" class="information_link">Tearms & Condition</a>
+        <a href="product.html" class="information_link">Privacy Policy</a>
+        <a href="product.html" class="information_link">How to Buy</a>
+        <a href="product.html" class="information_link">How to Sell</a>
+        <a href="product.html" class="information_link">Promotion</a>
+      </div>
+      <div class="block_information_2">
+        <h3 class="information_heading">SHOP CATEGORY</h3>
+        <a href="product.html" class="information_link">Men</a>
+        <a href="product.html" class="information_link">Women</a>
+        <a href="product.html" class="information_link">Child</a>
+        <a href="product.html" class="information_link">Apparel</a>
+        <a href="product.html" class="information_link">Brows All</a>
+      </div>
+    </div>
+    <!--    конец subscribe_information -->
+
+  </div>
+  <footer class="footer">
+    <div class="flex_footer container">
+      <p class="all_rights">© 2017 Brand All Rights Reserved.</p>
+      <div class="flex_icons">
+        <a class="icon" href="https://www.facebook.com/" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="jquery-3.3.1.js"></script>
+<script src="Cart.js"></script>
+<script src="Product.js"></script>
+<script src="Feedback.js"></script>
+<script src="main.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(() => {
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+
+  });
+</script>
+</body>
+</html>
